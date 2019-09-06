@@ -5,8 +5,8 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.6.4",
-        "crocodicstudio/crudbooster": "dev-master",
+        "php": "^7.3.8",
+        "crocodicstudio/crudbooster": "v5.4.22",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },
@@ -64,9 +64,6 @@
         "sort-packages": true
     },
     "repositories": {
-        "mowses/crudbooster": {
-            "type": "vcs",
-            "url": "https://github.com/mowses/crudbooster.git"
-        }
+        
     }
 }
